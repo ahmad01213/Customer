@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#25ffffff"
+    >
+    <RelativeLayout
+        android:id="@+id/lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#25ffffff"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/img_lay"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="10dp"
+            android:background="#ff4400" />
+        <LinearLayout
+            android:id="@+id/img_lay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="#FFF7BB27"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/food_raw_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/food_raw_delete"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/plus_minus_lay"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/deltce" />
+
+        <TextView
+            android:id="@+id/food_raw_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/food_raw_cost"
+            android:layout_alignRight="@+id/plus_minus_lay"
+            android:layout_centerHorizontal="true"
+            android:gravity="right"
+            android:paddingRight="30dp"
+            android:lines="1"
+            android:text=" "
+            android:textColor="#022c89"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/food_raw_desc"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/food_raw_title"
+            android:layout_toLeftOf="@+id/img_lay"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="25dp"
+            android:visibility="gone"
+            android:lines="2"
+            />
+
+        <TextView
+            android:id="@+id/food_raw_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:text=" "
+            android:textColor="#022c89"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <RelativeLayout
+            android:id="@+id/plus_minus_lay"
+            android:layout_width="match_parent"
+            android:layout_toLeftOf="@+id/img_lay"
+            android:layout_below="@+id/food_raw_title"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/food_raw_delete"
+            >
+            <LinearLayout
+                android:id="@+id/plus_minus_lay1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                >
+                <TextView
+                    android:id="@+id/id_order"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:text=" زربيان جمبري"
+                    android:textColor="#00ffffff"
+                    android:background="#00ffffff"
+                    android:textSize="15sp"
+                    />
+
+                <TextView
+                    android:id="@+id/minus"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/cminus"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/res_count"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/food_raw_desc"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@+id/minus"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="#230e00"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/plus"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/cplus"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

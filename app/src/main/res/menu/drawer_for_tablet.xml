@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:icon="@drawable/home"
+            android:id="@+id/home_page"
+            android:title="@string/home_page1"
+            />
+        <item
+            android:icon="@drawable/about_us"
+            android:id="@+id/about_us"
+            android:title="@string/about_us1"
+            />
+        <item
+            android:icon="@drawable/food_list"
+            android:id="@+id/food_list"
+            android:title="@string/food_list1"
+            />
+        <item
+            android:icon="@drawable/chart"
+            android:id="@+id/chart"
+            android:title="@string/chart1"
+            />
+        <item
+            android:icon="@drawable/cuurrnt_oreder"
+            android:id="@+id/current"
+            android:title="@string/cuurrent_order1"
+            />
+        <item
+            android:icon="@drawable/prev_orders"
+            android:id="@+id/prev_orders"
+            android:title="@string/prev_orders1"
+            />
+        <item
+            android:icon="@drawable/share"
+            android:id="@+id/contact_us"
+            android:title="@string/contact_us1"
+            />
+        <item
+            android:icon="@drawable/logout"
+            android:id="@+id/logout"
+            android:title="@string/logout1"
+            />
+    </group>
+</menu>

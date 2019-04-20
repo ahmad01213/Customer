@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text"
+    android:layout_width="350dp"
+    android:layout_height="230dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/main"
+    android:layout_centerInParent="true"
+    android:elevation="30dp"
+    >
+
+    <TextView
+        android:id="@+id/tex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="الرجاء تحديث التطبيق للاستمرار"
+        android:layout_above="@+id/btn_send"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_email"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="تحديث"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_contact_us"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        />
+
+</RelativeLayout>

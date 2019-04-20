@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main"
+    tools:context=".Chart"
+    android:layout_marginTop="50dp"
+    >
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/cart_rec"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_complete_req"
+        android:layout_marginTop="70dp"
+        android:background="#00ffffff"
+        >
+    </android.support.v7.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/btn_complete_req"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_food_list"
+        android:padding="10dp"
+        android:text=" إرسال الطلبات "
+        android:textColor="#f9a223"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/beck_to_menu"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_food_list"
+        android:padding="10dp"
+        android:text=" القائمة "
+        android:textColor="#f9a223"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:id="@+id/empty_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff6f00"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="السلة فارغة"
+        android:visibility="invisible"
+        android:layout_centerInParent="true"
+        />
+    <ProgressBar
+        android:id="@+id/progressbar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+</RelativeLayout>

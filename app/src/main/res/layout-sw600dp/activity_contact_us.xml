@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/scr"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ContactUs"
+    android:minHeight="1500dp"
+    android:orientation="vertical"
+    android:background="@drawable/main"
+    >
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:layout_gravity="center"
+      android:paddingBottom="120dp"
+      android:layout_marginTop="100dp"
+      android:background="@drawable/main"
+      >
+      <EditText
+          android:id="@+id/name"
+          android:layout_width="match_parent"
+          android:layout_height="80dp"
+          android:layout_marginLeft="20dp"
+          android:layout_marginTop="30dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginBottom="30dp"
+          android:background="@drawable/con_us_edit_tex"
+          android:drawablePadding="10dp"
+          android:gravity="center"
+          android:hint="الإسم"
+          android:padding="15dp"
+          android:textSize="25sp" />
+
+      <EditText
+          android:id="@+id/email"
+          android:layout_width="match_parent"
+          android:layout_height="80dp"
+          android:layout_marginLeft="20dp"
+          android:layout_marginTop="30dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginBottom="30dp"
+          android:background="@drawable/con_us_edit_tex"
+          android:drawablePadding="20dp"
+          android:gravity="center"
+          android:hint="البريد الإلكتروني"
+          android:padding="15dp"
+          android:textSize="25sp" />
+
+      <EditText
+          android:id="@+id/phon"
+          android:layout_width="match_parent"
+          android:layout_height="80dp"
+          android:layout_marginLeft="20dp"
+          android:layout_marginTop="30dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginBottom="30dp"
+          android:background="@drawable/con_us_edit_tex"
+          android:drawablePadding="20dp"
+          android:gravity="center"
+          android:hint="رقم التليفون"
+          android:inputType="number"
+          android:padding="15dp"
+          android:textSize="25sp" />
+
+      <EditText
+          android:id="@+id/massage"
+          android:layout_width="match_parent"
+          android:layout_height="80dp"
+          android:layout_marginLeft="20dp"
+          android:layout_marginTop="30dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginBottom="30dp"
+          android:background="@drawable/con_us_edit_tex"
+          android:drawablePadding="20dp"
+          android:gravity="center"
+          android:hint="الرسالة"
+          android:padding="15dp"
+          android:textSize="25sp" />
+
+      <Button
+          android:id="@+id/btn_send"
+          android:layout_width="match_parent"
+          android:layout_height="100dp"
+          android:layout_marginLeft="20dp"
+          android:layout_marginTop="0dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginBottom="10dp"
+          android:background="@drawable/button_contact_us"
+          android:padding="15dp"
+          android:shadowColor="@android:color/transparent"
+          android:text="إرسال"
+          android:textColor="#184887"
+          android:textSize="25sp"
+          android:textStyle="bold" />
+      <TextView
+          android:id="@+id/hot_line"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:textColor="#460405"
+          android:textStyle="bold"
+          android:layout_marginTop="50dp"
+          android:text="ويمكنكم الإتصال علي الرقم الموحد 920009106 "
+          android:layout_gravity="center_horizontal"
+          android:textSize="25sp"
+          />
+</LinearLayout>
+</ScrollView>

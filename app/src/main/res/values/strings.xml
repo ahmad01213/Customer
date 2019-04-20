@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">مطاعم ركن الزربيان</string>
+    <string name="hom"><font size="20">مطاعم ركن الزربيان</font></string>
+    <string name="menu_settings">Settings</string>
+    <string name="about_us"><font size="15"><b> من نحن</b></font></string>
+    <string name="food_list"><font size="15"><b> قائمة الطعام</b></font></string>
+    <string name="chart"><font size="15"><b> سلة المشتريات</b> </font></string>
+    <string name="prev_orders"><font size="15"><b>الطلبات السابقة</b></font></string>
+    <string name="cuurrent_order"><font size="15"><b>الطلب الحالي</b></font></string>
+    <string name="contact_us"><font size="15"><b> تواصل معنا</b></font></string>
+    <string name="register"><font size="15"> تسجيل الدخول</font></string>
+    <string name="logout"><font size="15"><b> تسجيل الخروج</b></font></string>
+    <string name="home_page"><font size="15"><b>الصفحة الرئيسية</b></font></string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">open</string>
+    <string name="facebook_app_id">308396262992494</string>
+    <string name="fb_login_protocol_scheme">fb308396262992494</string>
+    <string name="facebook_client_token">ee210689ea9acaa674c38fbc03f2ff15</string>
+    //for tablet
+    <string name="about_us1"><font size="25"><b> من نحن</b></font></string>
+    <string name="food_list1"><font size="25"><b>قائمة الطعام</b> </font></string>
+    <string name="chart1"><font size="25"><b> سلة المشتريات</b> </font></string>
+    <string name="prev_orders1"><font size="25"><b>الطلبات السابقة</b></font></string>
+    <string name="cuurrent_order1"><font size="25"><b>متابعة الطلب</b></font></string>
+    <string name="contact_us1"><font size="25"><b> تواصل معنا</b></font></string>
+    <string name="register1"><font size="25"> تسجيل الدخول</font></string>
+    <string name="logout1"><font size="25"><b> تسجيل الخروج</b></font></string>
+    <string name="home_page1"><font size="25"><b>الصفحة الرئيسية</b></font></string>
+</resources>
